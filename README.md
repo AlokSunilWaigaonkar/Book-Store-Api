@@ -141,15 +141,15 @@ spring.jpa.hibernate.ddl-auto=update
 ### ✅ Postman Test Results
 
 
-![Postman Screenshot 1](<img width="1280" alt="Image" src="https://github.com/user-attachments/assets/039c4fc5-2a3a-464b-aad3-70146f1837b8" />)
-![Postman Screenshot 2](<img width="1280" alt="Image" src="https://github.com/user-attachments/assets/610caf60-74d0-4a1c-abca-10bc91ba267a" />)
-![Postman Screenshot 3](<img width="1280" alt="Image" src="https://github.com/user-attachments/assets/c1ad4fab-7479-4dae-ae8f-0260671a1f94" />)
-![Postman Screenshot 4](<img width="1280" alt="Image" src="https://github.com/user-attachments/assets/e87803fe-d775-4fbd-b093-9d3aa9b347fe" />)
-![Postman Screenshot 5](<img width="1280" alt="Image" src="https://github.com/user-attachments/assets/7cf14818-5608-4178-95d9-2c2c180557e2" />)
-![Postman Screenshot 6](<img width="1280" alt="Image" src="https://github.com/user-attachments/assets/09d8a2cf-075a-49a3-8858-8ebf3c44a35b" />)
-![Postman Screenshot 7](<img width="1280" alt="Image" src="https://github.com/user-attachments/assets/f7fef350-721f-4c57-9ade-1ca0a702629a" />)
-![Postman Screenshot 8](<img width="1280" alt="Image" src="https://github.com/user-attachments/assets/76b7c298-64e3-400a-8746-9adbbb4a5461" />)
-![Postman Screenshot 9](<img width="1280" alt="Image" src="https://github.com/user-attachments/assets/ce709bd9-12eb-48d3-a7c3-f16157c706ba" />)
+![Postman Screenshot 1](https://github.com/user-attachments/assets/039c4fc5-2a3a-464b-aad3-70146f1837b8)
+![Postman Screenshot 2](https://github.com/user-attachments/assets/610caf60-74d0-4a1c-abca-10bc91ba267a)
+![Postman Screenshot 3](https://github.com/user-attachments/assets/c1ad4fab-7479-4dae-ae8f-0260671a1f94)
+![Postman Screenshot 4](https://github.com/user-attachments/assets/e87803fe-d775-4fbd-b093-9d3aa9b347fe)
+![Postman Screenshot 5](https://github.com/user-attachments/assets/7cf14818-5608-4178-95d9-2c2c180557e2)
+![Postman Screenshot 6](https://github.com/user-attachments/assets/09d8a2cf-075a-49a3-8858-8ebf3c44a35b)
+![Postman Screenshot 7](https://github.com/user-attachments/assets/f7fef350-721f-4c57-9ade-1ca0a702629a)
+![Postman Screenshot 8](https://github.com/user-attachments/assets/76b7c298-64e3-400a-8746-9adbbb4a5461)
+![Postman Screenshot 9](https://github.com/user-attachments/assets/ce709bd9-12eb-48d3-a7c3-f16157c706ba)
 
 
 ---
