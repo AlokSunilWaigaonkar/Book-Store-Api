@@ -10,6 +10,10 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
+/**
+ * Represents an author entity in the BookStore System.
+ * Contains personal details and list of authored books.
+ */
 @Data
 @Entity
 @NoArgsConstructor
@@ -18,10 +22,22 @@ public class Author {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
+    /**
+     * Full name of the author
+     */
     private String name;
+    /**
+     * Short bio of author.
+     */
     private String bio;
+    /**
+     * Date of birth of author.
+     */
     private Date dateOfBirth;
-    //One to Many relationship of author to books
+    /**
+     * List of the books written by author.
+     * Mapped by 'author' field in the Book entity.
+     */
     @OneToMany(mappedBy = "author", cascade = CascadeType.ALL)
     private List<Book> books = new ArrayList<>();
 }

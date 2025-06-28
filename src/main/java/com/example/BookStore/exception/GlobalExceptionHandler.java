@@ -8,11 +8,17 @@ import org.springframework.web.bind.annotation.RestControllerAdvice;
 import java.time.LocalDateTime;
 import java.util.HashMap;
 import java.util.Map;
-import java.util.Objects;
+
 
 @RestControllerAdvice
 public class GlobalExceptionHandler {
 
+    /**
+     * Handles cases when a requested resource is not found.
+     *
+     * @param ex the ResourceNotFound exception thrown.
+     * @return structured error response with 404 status.
+     */
     @ExceptionHandler(ResourceNotFoundException.class)
     public ResponseEntity<?> handleResourceNotFoundException(ResourceNotFoundException ex){
         Map<String, Object> body = new HashMap<>();
@@ -23,6 +29,13 @@ public class GlobalExceptionHandler {
         return new ResponseEntity<>(body,HttpStatus.NOT_FOUND);
     }
 
+    /**
+     * Handle any unhandled or generic exceptions.
+     *
+     * @param ex the Exception thrown
+     * @return structured error response with 500 status.
+     */
+    @ExceptionHandler(Exception.class)
     public ResponseEntity<?> handleGenericException(Exception ex){
         Map<String,Object> body = new HashMap<>();
         body.put("timestamp",LocalDateTime.now());
